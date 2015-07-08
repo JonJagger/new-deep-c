@@ -1,3 +1,3 @@
 # new-deep-c
 
-chapter 10 is still being worked on.
+chapters 10/13 are still being worked on.
