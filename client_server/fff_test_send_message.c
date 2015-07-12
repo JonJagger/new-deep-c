@@ -1,11 +1,11 @@
 
-#include "message.c"
+#include "message.h"
 #include "fff.h"
-#include <assert.h>
-#include <stdio.h>
-#include <stdarg.h>
-#include <stdbool.h>
-#include <string.h>
+#include <string.h>     // used in fff
+#include <assert.h>     // assert()
+#include <stdio.h>      // printf()
+#include <stdlib.h>     // EXIT_FAILURE
+#include <netdb.h>			// struct addrinfo
 
 #define UNUSED(variable)  ((void)(variable))
 
