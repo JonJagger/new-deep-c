@@ -31,7 +31,7 @@ static void reset()
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-	
+
 static int custom_getaddrinfo(
 	const char * host_name, 
 	const char * server_name, 
