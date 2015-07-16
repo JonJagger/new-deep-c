@@ -52,7 +52,7 @@ static int custom_getaddrinfo(
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-static void getaddrinfo_failure_prints_gai_diagnostic_to_stderr()
+static void test_getaddrinfo_failure_prints_gai_diagnostic_to_stderr()
 {
 	reset();
 	
@@ -83,6 +83,6 @@ static void getaddrinfo_failure_prints_gai_diagnostic_to_stderr()
 
 int main(void)
 {
-	getaddrinfo_failure_prints_gai_diagnostic_to_stderr();
+	test_getaddrinfo_failure_prints_gai_diagnostic_to_stderr();
 	printf("All tests passed\n");
 }

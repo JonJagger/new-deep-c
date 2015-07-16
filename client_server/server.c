@@ -1,6 +1,4 @@
-/*
-** server.c -- a stream socket server demo
-*/
+// server.c -- a stream socket server demo
 
 #include "message.h"
 

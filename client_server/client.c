@@ -1,6 +1,4 @@
-/*
-** client.c -- a stream socket client demo
-*/
+// client.c -- a stream socket client demo
 
 #include "message.h"			// recv_message
 
