@@ -62,12 +62,12 @@ static void getaddrinfo_failure_prints_gai_diagnostic_to_stderr()
 	const char message[] = "Hello";
 	int rv = send_message(message, sizeof message);
 	
+	assert(rv == EXIT_FAILURE);
+  
 	assert(getaddrinfo_fake.call_count == 1);
 	assert(fputs_fake.call_count == 2);
 	assert(fputc_fake.call_count == 1);
 	assert(socket_fake.call_count == 0);
-
-	assert(rv == EXIT_FAILURE);
 
 	assert(strcmp("getaddrinfo: ", fputs_fake.arg0_history[0]) == 0);
 	assert(fputs_fake.arg1_history[0] == stderr);
